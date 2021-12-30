@@ -23,4 +23,5 @@ Ramas
 
 - Para crear una rama: "git branch <name_branch>"
 - Para listar las ramas existentes: "git branch"
-- Para cambiarnos a otra rama: "git checkout <name_branch>"
+- Para cambiarnos a otra rama: "git checkout <name_branch>" ó "git switch <name_branch>"
+- Para fusionar las ramas: "git merge <name_branch>"
