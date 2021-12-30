@@ -25,5 +25,12 @@ Ramas
 - Para listar las ramas existentes: "git branch"
 - Para cambiarnos a otra rama: "git checkout <name_branch>" ó "git switch <name_branch>"
 - Para fusionar las ramas: "git merge <name_branch>"
-- Si queremos enviar un rama al repositorio: "git push -u origin <name_branch>"
+- Si queremos enviar un rama al repositorio de github: "git push -u origin <name_branch>"
 - Para eliminar rama: "git branch -D <name_branch>"
+- Si deseas crear una rama y cambiarte a esa rama: "git checkout -b <name_branch>"
+
+Git remote
+
+- Para clonar un repositorio: "git clone <enlace_github>"
+- Para saber a donde está apuntando nuestro repositorio si trabajamos con el flujo colaborativo: "git remote -v"
+- Para traerme los cambios del repositorio: "git pull origin <branch>"
