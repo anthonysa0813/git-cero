@@ -9,7 +9,7 @@
 - Para quitar del estado de stagging algún archivo: "git restores --staged <file>"
 - Para ver los logs de mis commits: "git log"
 - Para ver las diferencias entre logs: git diff code_log code_log
-- Para ir hacia un commit especifico: "git checkout <code_commit_log>"
+- Para ir hacia un commit especifico: "git checkout <some_code_commit_log>"
 - Para regresar al principal: "git checkout master ó main"
 
 Git Log
