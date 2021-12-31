@@ -34,3 +34,4 @@ Git remote
 - Para clonar un repositorio: "git clone <enlace_github>"
 - Para saber a donde está apuntando nuestro repositorio si trabajamos con el flujo colaborativo: "git remote -v"
 - Para traerme los cambios del repositorio: "git pull origin <branch>"
+- Para eliminar una rama que este en el remote: "git push --delete origin <name_branch>"
