@@ -75,3 +75,16 @@ Agrega tu llave
 
 ssh-add -K ~/.ssh/id_rsa
 🥳
+
+Alias
+
+- alias arbolito="git log --all --decorate --graph"
+
+Tags
+
+- Para crear un tag: "git tag -a v0.1 -m 'comentario de lo que se hizo en esta versión' <hash_log>"
+
+- Para ver los tags cread: "git tag"
+- Para enviar los tags a github: "git push origin --tags"
+- Para eliminar un tag: "git tag -d <name_tag>"
+- Para borrar la referencia del tag en github: "git push origin :refs/tags/<name_tag>
