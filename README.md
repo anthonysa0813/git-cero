@@ -35,6 +35,9 @@ Ramas
 - Si queremos enviar un rama al repositorio de github: "git push -u origin <name_branch>"
 - Para eliminar rama: "git branch -D <name_branch>"
 - Si deseas crear una rama y cambiarte a esa rama: "git checkout -b <name_branch>"
+- git show-branch --all
+
+- gitk
 
 Git remote
 
