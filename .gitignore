@@ -1,2 +1,6 @@
 
 requirements.txt
+# password => aquí estamos indicando a la carpeta
+# password/ => aquí estamos indicando que es una carpeta
+# password/pass.txt => aquí solo estamos ignorando el archivo pass.txt adentro de la carpeta password
+password/
