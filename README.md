@@ -1,4 +1,4 @@
-#Curso de git desde cero
+# Curso de git desde cero
 
 -Existen tres estados de git:
 
@@ -14,19 +14,19 @@
 - Para ir hacia un commit especifico: "git checkout <some_code_commit_log>"
 - Para regresar al principal: "git checkout master ó main"
 
-Git reset:
+## Git reset:
 
 - "git reset <some_code_commmit_log> --hard": todo vuelve a ese estado
 - "git reset <some_code_commmit_log> --soft": vuelve a ese estado pero lo que este en stagging, seguirá en ese estado.
 
-Git Log
+## Git Log
 
 - Para condensar los logs: "git log --oneline"
 - Para ver algo de información: "git log --raw"
 - Para ver los últimos 5 commits logs: "git log --oneline -n 5"
   -Para ver todos y con grafica las logs: "git log --oneline --all --graph --decorate"
 
-Ramas
+## Ramas
 
 - Para crear una rama: "git branch <name_branch>"
 - Para listar las ramas existentes: "git branch"
@@ -39,7 +39,7 @@ Ramas
 
 - gitk
 
-Git remote
+## Git remote
 
 - Para clonar un repositorio: "git clone <enlace_github>"
 - Otra forma de trabajar con remotos: "git remote add origin <enla_https_github_project>"
@@ -50,7 +50,8 @@ Git remote
 - Para traerme los cambios del repositorio: "git pull origin <branch>"
 - Para eliminar una rama que este en el remote: "git push --delete origin <name_branch>"
 
-Llaves ssh
+## Llaves ssh
+
 Generar una nueva llave SSH: (Cualquier sistema operativo)
 
 - ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
@@ -79,11 +80,11 @@ Agrega tu llave
 ssh-add -K ~/.ssh/id_rsa
 🥳
 
-Alias
+## Alias
 
 - alias arbolito="git log --all --decorate --graph"
 
-Tags
+## Tags
 
 - Para crear un tag: "git tag -a v0.1 -m 'comentario de lo que se hizo en esta versión' <hash_log>"
 
@@ -91,3 +92,13 @@ Tags
 - Para enviar los tags a github: "git push origin --tags"
 - Para eliminar un tag: "git tag -d <name_tag>"
 - Para borrar la referencia del tag en github: "git push origin :refs/tags/<name_tag>
+
+## Fork
+
+- Los forks son como copias pero propias, una vez que hagamos fork a un repositorio viene a ser de nuestra propiedad, así el repositorio se haya eliminado.
+- podremos hacer cambios sin tener que pedirle permiso a dueño del repositorio.
+
+## Pull Request & Issues
+
+- Pull request: Si deseamos contribuir con otros repositorios. significa que le estamos "solicitando un cambio" y este cambio se hará visible si el dueño del repositorio lo acepta.f5
+- Issue: Es un comentario que le dejamos a un repositorio sobre algun bug, sugerencia, etc.
